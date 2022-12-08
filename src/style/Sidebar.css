@@ -1,0 +1,26 @@
+#sidebar-main{
+    padding: 50px 0px;
+    padding-left: 20px;
+}
+.tick-logo{
+    width: 20px;
+    height: 20px;
+}
+.sidebar-div{
+    margin: 15px 10px;
+    display: flex;
+}
+.icon-text{
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 1360px){
+    .icon-text{
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+  }
+#sidebar{
+    height: 1045px;
+}

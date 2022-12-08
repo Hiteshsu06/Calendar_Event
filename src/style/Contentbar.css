@@ -1,0 +1,288 @@
+.rbc-toolbar {
+  width: 1098px;
+  height: 50px;
+  background-color: rgb(236, 243, 242);
+}
+#contentbar {
+  position: relative;
+}
+.classform {
+  position: absolute;
+  background-color: white;
+  z-index: 100;
+  width: 350px;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 50px 350px;
+}
+.formCrossButton {
+  border: none;
+  background-color: blueviolet;
+  padding: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+}
+#formTop {
+  background-color: blueviolet;
+  height: 40px;
+  padding: 5px 0 0 0;
+  border-radius: 5px 5px 0px 0px;
+  display: flex;
+}
+#formTitle {
+  margin: 5px 100px 5px 10px;
+  font-size: 18px;
+  color: white;
+}
+.imageInput {
+  margin-left: 10px;
+  overflow: hidden;
+  width: 327px;
+}
+.formImage {
+  margin: 10px 10px 0px;
+  max-width: 330px;
+  height: 200px;
+}
+.formButton {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}
+#formSubmitButton {
+  margin-right: 100px;
+}
+#formDeleteButton {
+  font-size: 25px;
+}
+.descriptionClass {
+  margin-left: 10px;
+  width: 328px;
+  height: 50px;
+}
+.inputformtitle {
+  background-color: blueviolet;
+  border: none;
+  outline: none;
+  color: white;
+}
+.inputformtitle::placeholder {
+  color: white;
+}
+.formTextArea {
+  margin-left: 10px;
+  outline: none;
+}
+.formFooter {
+  margin-left: 130px;
+}
+.rbc-calendar {
+  min-height: 800px;
+}
+.rbc-month-view {
+  margin-top: -10px;
+}
+.rbc-btn-group:nth-child(3) button:nth-child(4) {
+  display: none;
+}
+.rbc-btn-group:nth-child(3) button:nth-child(3) {
+  margin-right: 20px;
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.rbc-btn-group:nth-child(1) button:nth-child(2) {
+  visibility: hidden;
+}
+.rbc-btn-group:nth-child(1) button {
+  position: relative;
+}
+.rbc-btn-group:nth-child(1) button:nth-child(2)::after {
+  content: "<";
+  font-size: 28px;
+  position: absolute;
+  font-weight: bold;
+  visibility: visible;
+  margin-left: 300px;
+  margin-top: -10px;
+}
+.rbc-btn-group:nth-child(1) button:nth-child(3) {
+  visibility: hidden;
+}
+.rbc-btn-group:nth-child(1) button:nth-child(3)::after {
+  content: ">";
+  position: absolute;
+  font-size: 28px;
+  font-weight: bold;
+  visibility: visible;
+  margin-left: 430px;
+  margin-top: -10px;
+}
+.rbc-time-view {
+  margin-top: -10px;
+}
+.rbc-allday-cell {
+  display: none;
+}
+.rbc-row.rbc-time-header-cell {
+  height: 30px;
+  font-size: 18px;
+}
+.rbc-header.rbc-today button span {
+  font-weight: bold;
+}
+.rbc-header button span {
+  font-weight: bold;
+}
+.rbc-toolbar button:active {
+  color: yellow;
+  background-color: none;
+}
+.rbc-toolbar button.rbc-active:focus {
+  color: #373a3c;
+  background-color: blueviolet !important;
+  border-color: #ddd;
+  color: white !important;
+}
+.rbc-toolbar button.rbc-active {
+  background-color: blueviolet !important;
+  color: white;
+}
+.startdiv {
+  width: 145px;
+  font-size: 12px;
+}
+.enddiv {
+  width: 145px;
+  font-size: 12px;
+  margin-left: auto;
+  padding-left: 70px;
+  right: 0px;
+}
+.formDate {
+  margin: 5px 10px 5px 10px;
+  display: flex;
+}
+.clock {
+  margin-right: 5px;
+}
+.to {
+  font-size: 13px;
+}
+
+.Eventsshower {
+  position: absolute;
+  background-color: white;
+  width: 360px;
+  height: 450px;
+  z-index: 100;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.events-shower-title {
+  font-size: 20px;
+  height: 40px;
+  display: flex;
+}
+.events-shower-image {
+  width: auto;
+  margin-top: 2px;
+  height: 200px;
+}
+.events-shower-description {
+  text-align: justify;
+}
+.event-shower-inner-title {
+  width: 90%;
+}
+.eventCrossButton {
+  border: none;
+  background-color: rgb(204, 81, 81);
+  width: 10%;
+}
+.eventCrossButton {
+  background-color: white;
+}
+.events-shower-description {
+  height: 130px;
+}
+.editbutton {
+  position: absolute;
+  margin: auto;
+  right: 0px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}
+.editdiv {
+  position: relative;
+}
+.editcontainer {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: 10px;
+  width: 320px;
+  height: 150px;
+  padding: auto;
+  text-align: center;
+  justify-content: center;
+  padding-top:20px ;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.editcontainer{
+    display: flex;
+}
+.editStartInput{
+    width:120px;
+}
+.editStartInput::placeholder{
+    text-align: center;
+}
+.editEndInput{
+    width:120px;
+}
+.editEndInput::placeholder{
+    text-align: center;
+}
+.editStart{
+    display: block;
+}
+.editCrossButton{
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 0px;
+    position: absolute;
+    margin-left: 280px;
+    margin-top: -15px;
+}
+.edit-button-div{
+    width: 65px;
+    margin-left: 130px;
+    margin-top: -20px;
+}
+.edit-submit-button{
+background-color: white;
+border: 1px solid black;
+}
+.edit-button-div{
+position: absolute;
+margin-top: 70px;
+margin-right: 130px
+}
+.editcontainer{
+    background-color: white;
+}
+.editbutton{
+    margin-top: -20px;
+}
+.enddiv{
+    margin-left: -10px;
+    width: 150px;
+}
